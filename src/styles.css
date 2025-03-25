@@ -1,0 +1,102 @@
+/* Base styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header */
+  h1 {
+    text-align: center;
+    margin: 30px 0 10px;
+    color: #222;
+  }
+  
+  /* Form styling */
+  form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 10px;
+  }
+  
+  input[type='text'] {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 16px;
+    background-color: #2b7cff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #1a5edc;
+  }
+  
+  /* Task card styling */
+  .todo-item {
+    width: 420px;
+    margin: 12px auto;
+    background-color: #ffffff;
+    padding: 12px 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  /* Task text section */
+  .todo-item p {
+    margin: 0;
+    word-wrap: break-word;
+  }
+  
+  /* Edit input */
+  .todo-item input[type='text'] {
+    padding: 8px;
+    font-size: 14px;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Group buttons */
+  .todo-item button {
+    font-size: 12px;
+    padding: 6px 10px;
+    background-color: #6c757d;
+  }
+  
+  .todo-item button:nth-of-type(1) {
+    background-color: #ffc107; /* Edit/Save */
+  }
+  
+  .todo-item button:nth-of-type(2) {
+    background-color: #dc3545; /* Delete */
+  }
+  
+  .todo-item button:hover {
+    opacity: 0.9;
+  }
+  
+  .todo-heading {
+    text-align: center;
+    margin-top: 30px;
+    color: #222;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+  }
+  
